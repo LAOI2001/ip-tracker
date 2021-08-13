@@ -1,0 +1,69 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.icon-sun {
+    cursor: pointer;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.container-main-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+.container-main-search h3{
+    font-size: 1.5rem;
+    margin: 0.3rem 0px 0px 0px;
+}
+
+.search-ip-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-ip-container input {
+    margin: 0.8rem 2rem 0.8rem 2rem;
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+.search-ip-container input:focus {
+    outline: none;
+    border-color: blue;
+}
+
+.search-ip-container button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    border-radius: 8px;
+    transition: 0.4s ease;
+}
+.search-ip-container button:hover {
+    color: white;
+    background-color: green;
+}
+
+
+.info-ip-container {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    border-radius: 8px;
+}
+.info-ip-container h4 {
+    margin: 0;
+}
